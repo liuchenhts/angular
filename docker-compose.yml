@@ -14,9 +14,4 @@ services:
     ports:
       - "4200:4200"
       - "9876:9876"
-networks:
-  default:
-    external:
-      # make sure the external network is created in advance using below command
-      # docker network create --driver bridge development
-      name: development
+
